@@ -7,7 +7,7 @@
 * Access to the controller over the management network plane
 ## Parameters
 To obtain the list of the parameters type --help as a parameter.
-
+```bash
 CognitivePacketSpoofer.py [-h] [--sleep SLEEP] [--maxiter MAXITER]
                                  [--dont-spoof-on [DONT_SPOOF_ON [DONT_SPOOF_ON ...]]]
                                  [--spoof-on [SPOOF_ON [SPOOF_ON ...]]]
@@ -35,3 +35,4 @@ optional arguments:
                         Provide links that will be spoofed. Cannot be used
                         with --dontSpoofOn parameter. Use notation srcIP-dstIP
                         srcIP2-dstIP2
+ ```
