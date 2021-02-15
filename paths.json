@@ -1,0 +1,22 @@
+{
+  "paths": [
+      {
+        "destination":2,
+        "source":3,
+        "nodes":
+        [
+          {"id":3,"output":1},
+          {"id":1,"output":1}
+        ]
+      },
+      {
+        "destination":3,
+        "source":2,
+        "nodes":
+        [
+          {"id":2,"output":1},
+          {"id":1,"output":2}
+        ]
+      }
+  ]
+}
