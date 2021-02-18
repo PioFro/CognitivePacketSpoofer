@@ -1,21 +1,25 @@
 {
   "paths": [
       {
-        "destination":2,
-        "source":3,
+        "destination":3,
+        "source":5,
         "nodes":
         [
-          {"id":3,"output":1},
-          {"id":1,"output":1}
+          {"id":5,"output":2},
+          {"id":2,"output":49},
+          {"id":4,"output":52},
+          {"id":1,"output":49}
         ]
       },
       {
-        "destination":3,
-        "source":2,
+        "destination":5,
+        "source":3,
         "nodes":
         [
-          {"id":2,"output":1},
-          {"id":1,"output":2}
+          {"id":3,"output":49},
+          {"id":1,"output":52},
+          {"id":4,"output":49},
+          {"id":2,"output":32}
         ]
       }
   ]
