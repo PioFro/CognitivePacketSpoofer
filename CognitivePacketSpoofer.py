@@ -179,4 +179,5 @@ for flow in deleteResponse.json()["flows"]:
         flowId = flow["id"]
         urlDelete = "http://{}:8181/onos/v1/flows/{}/{}".format(args.ctrlIP, device, flowId)
         deleteResponse = rq.delete(urlDelete, auth=("karaf", "karaf"))
+cleanupResponse = rq.get("http://{}:8181/onos/rnn/SRE/cleanup".format(args.ctrlIP),auth=("karaf","karaf"))
 print("Cleanup ready")
